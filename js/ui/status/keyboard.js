@@ -19,6 +19,9 @@ import * as PanelMenu from '../panelMenu.js';
 import * as SwitcherPopup from '../switcherPopup.js';
 import * as Util from '../../misc/util.js';
 
+const DESKTOP_INPUT_SOURCES_SCHEMA = 'org.gnome.desktop.input-sources';
+const KEY_INPUT_SOURCES = 'sources';
+
 export const INPUT_SOURCE_TYPE_XKB = 'xkb';
 export const INPUT_SOURCE_TYPE_IBUS = 'ibus';
 
